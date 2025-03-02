@@ -1,5 +1,5 @@
 function fetchMessage() {
-    fetch("http://your-backend-url/api/message")
+    fetch("http://13.232.155.200/api/message")
         .then(response => response.json())
         .then(data => {
             document.getElementById("message").innerText = data.message;
